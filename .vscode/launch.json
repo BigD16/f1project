@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train baseline",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.train",
+      "args": ["--data_path", "data", "--out_dir", "models"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
